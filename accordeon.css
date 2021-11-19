@@ -1,0 +1,105 @@
+.red{
+    background-color: red;
+    width: 100%;
+    height:20px;
+    margin-bottom: 10px;
+    
+}
+.orange{
+    background-color:orange;
+    width: 100%;
+    height:100px;
+    margin-bottom: 10px;
+}
+
+.haut{
+    display:flex;
+   flex-direction: row;
+}
+.bas{
+    display:flex;
+   flex-direction: row;
+}
+.one{
+    background-color: yellow;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 600px;
+    height:200px
+}
+.two{
+    background-color: yellow;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 600px;
+    height:200px
+}
+.three{
+    background-color: yellow;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 600px;
+    height:200px
+}
+.four{
+    background-color: yellow;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 600px;
+    height:200px
+}
+.green{
+    background-color: green;
+    width: 400px;
+    height:300px;
+    margin-bottom: 10px;
+}
+.blue{
+    background-color: blue;
+    width: 400px;
+    height:200px;
+    margin-bottom: 10px;
+}
+.pink{
+    background-color: pink;
+    width: 1210px;
+    height:400px;
+    margin-right: 5px;
+}
+.rightandyellow{
+    display: flex;
+  position:relative;
+    
+}
+@media all and (max-width: 768px){
+    .two{
+        display:none; 
+    }
+    .three{
+        display:none; 
+    }
+    .four{
+        display:none; 
+    }
+    .one{
+        order:3;
+    }
+    .rightandyellow :not(.one){
+        display:none;
+    }
+
+    .tablet-green{
+        background-color: green;
+        width:100px;
+        height:100px;
+    }
+    .tablet{
+        display:flex;
+        flex-direction: row;
+    }
+    .yellow-tablet{
+        background-color: yellow;
+        width:100px;
+        flex-wrap:wrap;
+    }
+}
